@@ -218,3 +218,60 @@ h1 {
 }
 
 /* Resposive */
+@media only screen and (max-width: 600px) {
+  .nav {
+    background-color: var(--darkcream);
+    width: 100%;
+    /* height: 1320px; */
+  }
+  .header,
+  .header-section,
+  .facts-section,
+  .fact-cards,
+  .footer-list,
+  .facts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .main-feature-img,
+  .main-btn {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .quick-feature-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .quick-feature-img,
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1px;
+  }
+  .copyright-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    margin: 0 auto;
+  }
+  .section-img {
+    width: 100%;
+  }
+}
